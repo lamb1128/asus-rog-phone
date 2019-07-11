@@ -1,0 +1,9 @@
+mixin addFooter(words)
+  footer.footer
+    h1!= words.h1
+    .copyright!= words.cpy
+      ul.nav
+        //- //每個words裡面的資料 各自產生下方的內容
+        //- //利用each產生流水號 ,  ``內為字串+變數
+        each item, index in words.nav
+          li(class=`nav nav-${index}`)!= item

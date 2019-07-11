@@ -1,0 +1,40 @@
+
+
+.topper{
+  background-color: rgba(34, 34, 34, 0.7);
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  position: relative;
+  .logo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-right: 10px;
+    background-image: url(../images/n-logo-asus-white.svg);
+    cursor: pointer;
+    width: 107px;
+    height: 23px;
+    display: inline-block;
+    background-repeat: no-repeat;
+  }
+  
+  ul.top_nav{
+    // background-color: #3ddfdd;
+    margin-left: 132px;
+    display: inline-block;
+    list-style: none;
+    color: white;
+    li{
+      display: inline-block;
+      cursor: pointer;
+      font-size: 16px;
+      line-height: 1.2;
+      vertical-align: middle;
+      padding: 10px 20px;
+      font-family: "Segoe UI", "微軟正黑體", "Microsoft JhengHei", "Arial", "新細明體";
+    }
+  }
+}
+

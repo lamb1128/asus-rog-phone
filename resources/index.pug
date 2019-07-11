@@ -1,0 +1,15 @@
+- var words = self.htmlWebpackPlugin.options.data;//丟index.json裡的全部資料
+include pug/_base.pug
+
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title ROG Phone | Phone | ASUS Global
+  body
+    //丟index.json裡的topper進去
+    +addTopper(words.topper)(class="top" id="ddd")
+    //-   figure.img_bg
+    //- +addFooter(words.footer)

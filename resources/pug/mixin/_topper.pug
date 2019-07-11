@@ -1,0 +1,7 @@
+mixin addTopper(words)
+	.topper&attributes(attributes)
+		a.logo
+		ul.top_nav
+			each item, index in words.li
+				li(class=`nav nav-${index}`)!= item
+			
