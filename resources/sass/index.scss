@@ -4,14 +4,9 @@
   box-sizing: border-box;
 }
 
-@import '_topper';
+@import './mixin/sectionBase';
 
 
-.wrapper {
-  width: 100px;
-  height: 100px;
-
-  .topBar {
-    
-  }
+#ASUS-features {
+  @import './pages/large/section__1'
 }

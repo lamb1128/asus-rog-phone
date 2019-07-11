@@ -1,0 +1,70 @@
+// section.section__1
+//   .row
+//     .col
+//       .wd-content.text-center
+//         .content-slogan
+//         .content-title
+//         .content-info
+//     .col
+//       figure.img.img__1
+
+section {
+  position: relative;
+
+  background: #000;
+
+  width: 100%;
+  max-width: 2560px;
+
+  .row {
+    .col {
+      .wd-content {
+        position: relative;
+        
+        > * {
+          color: #fff;
+          &.content-slogan {
+            font-size: 16px;
+            color: #cf0a2c;
+          }
+
+          &.content-title {
+            font-size: 48px;
+            color: #fff;
+            line-height: 1.2;
+          }
+
+          &.content-info {
+            font-size: 20px;
+            color: #fff;
+            line-height: 1.5;
+          }
+        }
+
+        &.text-center {
+          > * {
+            text-align: center;
+          }
+        }
+
+        &.text-left {
+          > * {
+            text-align: left;
+          }
+        }
+
+        &.text-right {
+          > * {
+            text-align: right;
+          }
+        }
+      }
+
+      figure.img {
+        position: relative;
+        left: 50%;
+
+      }
+    }
+  }
+}

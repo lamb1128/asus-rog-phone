@@ -1,0 +1,20 @@
+mixin wdContent(words, config)
+  .col
+    //- .text-center
+    if config && config === 'left'
+      .wd-content.text-left
+        .content-slogan!= words.slogan
+        .content-title!= words.title
+        .content-info!= words.info
+    //- .text-left
+    if config && config === 'right'
+      .wd-content.text-right
+        .content-slogan!= words.slogan
+        .content-title!= words.title
+        .content-info!= words.info
+    //- .text-right
+    if !config
+      .wd-content.text-center
+        .content-slogan!= words.slogan
+        .content-title!= words.title
+        .content-info!= words.info

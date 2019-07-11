@@ -1,0 +1,13 @@
+//- @word = 文案
+//- @index = 流水號
+//- @config = wd__content文字靠齊位置
+
+include _wdContent.pug
+include _wdImages.pug
+
+mixin addSection(index)
+  - var sectionName = index || 'kv';
+
+  section(class=`section__${sectionName}`)
+    .row
+      block

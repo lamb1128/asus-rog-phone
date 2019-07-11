@@ -3,6 +3,13 @@
     "h1": "這裡是topper　h1",
     "li": ["Products","What´s Hot","Commercial","Service"]
   },
+
+  "s1": {
+    "slogan": "slogan",
+    "title": "titltitletitletitlee",
+    "info": "infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo"
+  },
+
   "footer": {
     "h1": "這裡是footer h1",
     "cpy": "這裡是footer copyright",
