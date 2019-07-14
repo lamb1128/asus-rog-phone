@@ -5,10 +5,19 @@
   },
 
   "s1": {
-    "slogan": "slogan",
-    "title": "titltitletitletitlee",
-    "info": "infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo"
+    "slogan": "GAME CHANGER",
+    "title": ["EPIC PERFORMANCE.","UNBEATABLE VISUALS.","TOTAL CONTROL."],
+    "feature__list": ["特色一","特色二","特色三","特色四","特色五","特色六"],
+    "feature__describe": ["01","02","03","04","05","06"],
+    "info": "A new era of mobile gaming has dawned. An era where you take full control, where every sense is heightened, where every sinew is ready for the fray. With pure ROG gaming DNA at its core, ROG Phone breaks every rule to go where rivals fear to tread. This is a phone built to win: its world-beating, speed-binned 2.96GHz Qualcomm Snapdragon 845 Mobile Platform and Adreno 630 GPU deliver epic performance, its unique GameCool vapor-chamber cooling system — with detachable AeroActive Cooler for an extra cooling boost — sustains high frame rates in the heat of battle, and its no-compromise AMOLED display blends blazing speed with gorgeous visuals. The ultra-comfortable design features unique side-mounted ports, and the enhanced, ultra-responsive game controls — including programmable ultrasonic AirTriggers and advanced haptics — let you focus all your skills on the game, giving you the edge you need for total domination. ROG Phone will change your game — forever."
   },
+
+  "s2": {
+    "slogan": "DESIGN",
+    "title": "ENGINEERED FOR BATTLE",
+    "info": "Using a combination of tough, precision-crafted 2.5D- and 3D-curved Corning® Gorilla® Glass with diamond-cut highlights and copper detailing, the metal-framed, water-resistant ROG Phone combines battle-hardened construction with a supremely comfortable gaming grip for an unrivaled gaming experience. ROG Phone feel instantly good in your hand, ready and waiting for the call of duty."
+  },
+  
 
   "footer": {
     "h1": "這裡是footer h1",

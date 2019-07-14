@@ -1,18 +1,31 @@
-mixin wdContent(words, config)
+mixin wdContent(words, config, addLogo)
   .col
-    //- .text-center
+    if addLogo ==='kv'
+      .img.img__kv__logo
+    //- .text-left
     if config && config === 'left'
       .wd-content.text-left
         .content-slogan!= words.slogan
         .content-title!= words.title
         .content-info!= words.info
-    //- .text-left
+
+    //- .text-right
     if config && config === 'right'
       .wd-content.text-right
         .content-slogan!= words.slogan
         .content-title!= words.title
         .content-info!= words.info
-    //- .text-right
+
+    //- .text-center
+    if config && config === 'center' && addLogo ==='kv'
+      .wd-content.text-center
+        .content-slogan__kv!= words.slogan
+        .content-title__kv
+          .no__wrap!= words.title[0]
+          .no__wrap!= words.title[1]
+          .no__wrap!= words.title[2]
+        .content-info!= words.info
+        
     if !config
       .wd-content.text-center
         .content-slogan!= words.slogan

@@ -1,0 +1,9 @@
+mixin wd__feature__list(words, index)
+  .wd__feature__list
+    each item, index in words.feature__list
+      .wd__feature(class=`feature__${index+1}`)!= item
+        .wd__feature__data
+          figure(class=`img icom-${index+1}`)!= item
+        .wd__feature__describe
+          each item, index in words.feature__describe
+            span(class=`describe-${index+1}`)!= item

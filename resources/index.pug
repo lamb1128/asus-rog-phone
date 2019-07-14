@@ -8,6 +8,8 @@ html(lang="en")
     meta(name="viewport", content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title ROG Phone | Phone | ASUS Global
+    link(href="https://fonts.googleapis.com/css?family=Roboto|Russo+One|Saira:500|Teko&display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" type="text/css")
   body
     //- //丟index.json裡的topper進去
     //- +addTopper(words.topper)(class="top" id="ddd")
@@ -21,18 +23,21 @@ html(lang="en")
       .outer-view
         +addSection()
           +wdImages()
-          +wdContent(words.s1)
+          +wdContent(words.s1, 'center', 'kv')
+          +wd__feature__list(words.s1,6)
         
         - $i = '2';
         +addSection($i)
           +wdImages($i)
           +wdContent(words.s1)
+            //- +wd__feature__list($i)
         //- +addSection(words, 'left', '2')
 
         - $i = '3';
         +addSection($i)
           +wdImages($i)
           +wdContent(words.s1)
+          //- +wd__feature__list($i)
 
       // 內層
       .inner-view

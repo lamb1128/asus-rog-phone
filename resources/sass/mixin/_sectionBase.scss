@@ -11,21 +11,66 @@
 section {
   position: relative;
 
-  background: #000;
+  background: #0e0e0e;
 
   width: 100%;
   max-width: 2560px;
+  overflow: hidden;
+
+
+
+.img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
   .row {
     .col {
+      .img__kv__logo{
+        background-image: url('../images/features/large/1x/01_kv_logo.png');
+        width: 740px;
+        height: 120px;
+        background-size: contain;
+      }
+
       .wd-content {
         position: relative;
         
+        
         > * {
           color: #fff;
+          &.content-slogan__kv {
+            margin: -20px 0 0 0;
+            
+            font-size: 69px;
+            font-family: Saira, sans-serif-Regular, Helvetica, Arial, Microsoft JhengHei, LiHei Pro, WenQuanYi Zen Hei, sans-serif;
+
+            color: #fff;
+
+
+          }
+
+          &.content-title__kv {
+            font-size: 48px;
+            color: #cf092c;
+            line-height: 1.2;
+
+            margin-bottom: 10px;
+
+            text-transform: uppercase;
+            font-family: Saira, sans-serif-Regular, Helvetica, Arial, Microsoft JhengHei, LiHei Pro, WenQuanYi Zen Hei, sans-serif;
+            font-weight: normal;
+            font-style: normal;
+          }
+
           &.content-slogan {
-            font-size: 16px;
-            color: #cf0a2c;
+            margin-top: -9px;
+            font-size: 57.5px;
+            color: #fff;
           }
 
           &.content-title {
@@ -35,9 +80,15 @@ section {
           }
 
           &.content-info {
-            font-size: 20px;
-            color: #fff;
-            line-height: 1.5;
+            width: 1040px;
+
+            margin-top: 26px;
+            margin-left: auto;
+            margin-right: auto;
+
+            font-family: "Roboto-Light_0", Helvetica, Arial, Microsoft JhengHei, LiHei Pro, WenQuanYi Zen Hei, sans-serif;
+            font-size: 25px;
+            line-height: 1.6;
           }
         }
 
