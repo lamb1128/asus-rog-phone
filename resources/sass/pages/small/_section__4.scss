@@ -3,7 +3,7 @@
   // padding-bottom: 640px;
   .img__4 {
     position: relative;
-    margin-top: 0px;
+    margin-top: -38px;
     width: 566px;
     height: 324px;
     left: 50%;
@@ -42,11 +42,11 @@
   }
 
   .img__04_fan {
-    margin-top: -110px;
-    width: 566px;
-    height: 324px;
+    margin-top: -50px;
+    width: 720px;
+    height: 250px;
     left: 50%;
-    margin-left: 283px;
+    margin-left: -360px;
     z-index: 1;
 
     @include resolution2xImg((
