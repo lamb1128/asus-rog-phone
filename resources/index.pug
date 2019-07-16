@@ -24,20 +24,33 @@ html(lang="en")
         +addSection()
           +wdImages()
           +wdContent(words.s1, 'center', 'kv')
-          +wd__feature__list(words.s1,6)
+            +wdFeatureList(words.s1.featureList)
         
         - $i = '2';
         +addSection($i)
+          +wdContent(words.s2)
+            +wdFeatureList(words.s2.featureList)
           +wdImages($i)
-          +wdContent(words.s1)
-            //- +wd__feature__list($i)
-        //- +addSection(words, 'left', '2')
 
         - $i = '3';
         +addSection($i)
+          +wdContent(words.s3)
+            +wdFeatureList(words.s3.featureList)
           +wdImages($i)
-          +wdContent(words.s1)
-          //- +wd__feature__list($i)
+
+        - $i = '4';
+        +addSection($i)
+          +wdImages($i)
+          +wdContent(words.s4, 'right' ,'04')
+            +wdFeatureList(words.s4.featureList)
+          +wdImages('04_fan')
+
+        - $i = '5';
+        +addSection($i)
+          +wdContent(words.s5)
+            +wdFeatureList(words.s5.featureList)
+          +wdImages($i)
+
 
       // 內層
       .inner-view

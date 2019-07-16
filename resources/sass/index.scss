@@ -5,8 +5,12 @@
 }
 
 @import './mixin/sectionBase';
-
+@import './mixin/wdFeatureList';
 
 #ASUS-features {
-  @import './pages/large/section__1'
+  @import './pages/large/section__1';
+  @import './pages/large/section__2';
+  @import './pages/large/section__3';
+  @import './pages/large/section__4';
+  @import './pages/large/section__5';
 }

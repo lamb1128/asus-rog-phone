@@ -1,0 +1,48 @@
+.section__2 {
+  padding-top: 250px;
+  padding-bottom: 640px;
+  .img__2 {
+    margin-top: -310px;
+    width: 100%;
+    max-width: 2560px;
+    height: 1284px;
+    left: 0;
+    z-index: 1;
+    background-image: url('../images/features/large/2x/02_design.jpg');
+  }
+
+  .img__2::after {
+    content: "";
+    margin-top: -257px;
+    width: 100%;
+    max-width: 1918px;
+    height: 800px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1192px;
+    z-index: 1;
+    background-image: url(../images/features/large/2x/02_parts.jpg);
+    display: block;
+    background-size: cover;
+    position: absolute;
+  }
+ 
+    .wd__feature__list{
+      .wd__feature{
+        min-width: 171px;
+        .wd__feature__data{
+          .space-left-m{
+          }
+          figure{
+          }
+          .img-icon{
+            width: 104px;
+            height: 36px;
+          }
+        }
+      }
+  }
+
+}

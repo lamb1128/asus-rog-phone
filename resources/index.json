@@ -7,17 +7,239 @@
   "s1": {
     "slogan": "GAME CHANGER",
     "title": ["EPIC PERFORMANCE.","UNBEATABLE VISUALS.","TOTAL CONTROL."],
-    "feature__list": ["特色一","特色二","特色三","特色四","特色五","特色六"],
-    "feature__describe": ["01","02","03","04","05","06"],
-    "info": "A new era of mobile gaming has dawned. An era where you take full control, where every sense is heightened, where every sinew is ready for the fray. With pure ROG gaming DNA at its core, ROG Phone breaks every rule to go where rivals fear to tread. This is a phone built to win: its world-beating, speed-binned 2.96GHz Qualcomm Snapdragon 845 Mobile Platform and Adreno 630 GPU deliver epic performance, its unique GameCool vapor-chamber cooling system — with detachable AeroActive Cooler for an extra cooling boost — sustains high frame rates in the heat of battle, and its no-compromise AMOLED display blends blazing speed with gorgeous visuals. The ultra-comfortable design features unique side-mounted ports, and the enhanced, ultra-responsive game controls — including programmable ultrasonic AirTriggers and advanced haptics — let you focus all your skills on the game, giving you the edge you need for total domination. ROG Phone will change your game — forever."
+    "info": "A new era of mobile gaming has dawned. An era where you take full control, where every sense is heightened, where every sinew is ready for the fray. With pure ROG gaming DNA at its core, ROG Phone breaks every rule to go where rivals fear to tread. This is a phone built to win: its world-beating, speed-binned 2.96GHz Qualcomm Snapdragon 845 Mobile Platform and Adreno 630 GPU deliver epic performance, its unique GameCool vapor-chamber cooling system — with detachable AeroActive Cooler for an extra cooling boost — sustains high frame rates in the heat of battle, and its no-compromise AMOLED display blends blazing speed with gorgeous visuals. The ultra-comfortable design features unique side-mounted ports, and the enhanced, ultra-responsive game controls — including programmable ultrasonic AirTriggers and advanced haptics — let you focus all your skills on the game, giving you the edge you need for total domination. ROG Phone will change your game — forever.",
+
+    "featureList": [
+      {
+        "index": 1,
+        "top": "",
+        "dataIcon": "<img class='img-icon' src='./images/features/large/2x/icon/kv/icon_1.png' alt='Icon'/>",
+        "describe": "Innovative GameCool<br>vapor-chamber<br>cooling system"
+      },
+      {
+        "index": 2,
+        "top": "",
+        "dataIcon": "<img class='img-icon' src='./images/features/large/2x/icon/kv/icon_2.png' alt='Icon'/>",
+        "describe": "Innovative GameCool<br>vapor-chamber<br>cooling system"
+      },
+      {
+        "index": 3,
+        "top": "",
+        "dataIcon": "<img class='img-icon' src='./images/features/large/2x/icon/kv/icon_3.png' alt='Icon'/>",
+        "describe": "Ultrafast 90Hz display<br>with 1ms response time"
+      },
+      {
+        "index": 4,
+        "top": "",
+        "dataIcon": "<img class='img-icon' src='./images/features/large/2x/icon/kv/icon_4.png' alt='Icon'/>",
+        "describe": "AMOLED screen<br>with HDR visuals"
+      },
+      {
+        "index": 5,
+        "top": "",
+        "dataIcon": "<img class='img-icon' src='./images/features/large/2x/icon/kv/icon_5.png' alt='Icon'/>",
+        "describe": "Ultra-responsive<br>AirTriggers and<br>advanced haptics"
+      },
+      {
+        "index": 6,
+        "top": "",
+        "dataIcon": "<img class='img-icon' src='./images/features/large/2x/icon/kv/icon_6.png' alt='Icon'/>",
+        "describe": "Unique handling design<br>with side-mounted port"
+      }
+    ]
   },
 
   "s2": {
     "slogan": "DESIGN",
+    "sloganSvg": "svg",
     "title": "ENGINEERED FOR BATTLE",
-    "info": "Using a combination of tough, precision-crafted 2.5D- and 3D-curved Corning® Gorilla® Glass with diamond-cut highlights and copper detailing, the metal-framed, water-resistant ROG Phone combines battle-hardened construction with a supremely comfortable gaming grip for an unrivaled gaming experience. ROG Phone feel instantly good in your hand, ready and waiting for the call of duty."
+    "info": "Using a combination of tough, precision-crafted 2.5D- and 3D-curved Corning® Gorilla® Glass with diamond-cut highlights and copper detailing, the metal-framed, water-resistant ROG Phone combines battle-hardened construction with a supremely comfortable gaming grip for an unrivaled gaming experience. ROG Phone feel instantly good in your hand, ready and waiting for the call of duty.",
+
+    "featureList": [
+      {
+        "index": 1,
+        "top": "",
+        "data": "2.5<span class='space-left-m'>D</span>",
+        "describe": "Front<br>Corning<sup>®</sup> Gorilla<sup>®</sup> Glass 6"
+      },
+      {
+        "index": 2,
+        "top": "",
+        "data": "2<span class='space-left-m'>X</span>",
+        "describe": "Better<br>drop-test survivability<sup>1</sup>"
+      },
+      {
+        "index": 3,
+        "top": "",
+        "data": "3<span class='space-left-m'>D</span>",
+        "describe": "Rear<br>Corning<sup>®</sup> Gorilla<sup>®</sup> Glass"
+      },
+      {
+        "index": 4,
+        "top": "",
+        "dataIcon": "<img class='img-icon' src='./images/features/large/2x/icon/02/icon_1.png' alt='Icon'/>",
+        "describe": "Bold<br>futuristic styling"
+      }
+    ]
   },
   
+  "s3": {
+    "slogan": "PERFORMANCE",
+    "sloganSvg": "svg",
+    "title": "THE ULTrRA-PERFORMER",
+    "info": "ROG never compromises, especially when it comes to performance. ROG Phone takes mobile gaming performance to the next level, with each and every component optimized for a lag-free, responsive experience. Each octa-core Qualcomm<sup>®</sup> Snapdragon™ 845 Mobile Platform CPU is speed-binned and specially selected for maximum performance — including sustained clock speeds of up to an incredible 2.96GHz — and the Adreno™ 630 GPU is a gaming powerhouse, with graphics performance outstripping the previous generation by up to 30%. ROG Phone delivers consistent, smooth and stable frame rates with no lag, even during the toughest marathons. And since performance means nothing if your internet connection is slow, ROG Phone also packs ultrafast wireless connectivity in its inventory, including Cat 18 LTE and the latest 802.11ad gigabit-class <span class='no__wrap'>Wi-Fi.</span>",
+
+    "featureList": [
+      {
+        "index": 1,
+        "top": "",
+        "data": "<span class='space-right-m'>SDM</span>845",
+        "describe": "World’s fastest<sup>2</sup> 10nm octa-core<br>Qualcomm<sup>®</sup> Snapdragon™ 845<br>Mobile Platform"
+      },
+      {
+        "index": 2,
+        "top": "",
+        "data": "2.96<span class='space-left-m'>GHz</span>",
+        "describe": "Speed-binned<br>2.96GHz  SDM845"
+      },
+      {
+        "index": 3,
+        "top": "",
+        "data": "<span class='space-right-m'>Adreno™</span>630",
+        "describe": "GPU"
+      },
+      {
+        "index": 4,
+        "top": "",
+        "data": "30<span class='space-left-m'>%</span>",
+        "describe": "Faster graphics<sup>3</sup>"
+      },
+      {
+        "index": 5,
+        "top": "",
+        "data": "30<span class='space-left-m'>%</span>",
+        "describe": "Higher graphics<br>power efficiency<sup>3</sup>"
+      },
+      {
+        "index": 6,
+        "top": "",
+        "data": "2.5<span class='space-left-m'>X</span>",
+        "describe": "Faster<br>display throughput<sup>3</sup>"
+      },
+      {
+        "index": 7,
+        "top": "",
+        "data": "8<span class='space-left-m'>GB</span>",
+        "describe": "Up to 8GB RAM"
+      },
+      {
+        "index": 8,
+        "top": "",
+        "data": "512<span class='space-left-m'>GB</span>",
+        "describe": "Up to 512GB ROM"
+      },
+      {
+        "index": 9,
+        "top": "",
+        "data": "<span>Cat</span>18",
+        "describe": "Up to 1.2Gbps<br>Cat 18 LTE downloads"
+      },
+      {
+        "index": 10,
+        "top": "",
+        "data": "802.11ad",
+        "describe": "Up to 4.6Gbps Wi-Fi speeds"
+      },
+      {
+        "index": 11,
+        "top": "",
+        "dataIcon": "<img class='img-icon' src='./images/features/large/2x/icon/03/icon_1.png' alt='Icon'/>",
+        "describe": ""
+      }
+    ]
+  },
+
+
+  "s4": {
+    "slogan": "ROG GameCool System",
+    "sloganSvg": "svg",
+    "title": "PLAY COOL!",
+    "info": "A high-end phone running graphics-intense, fast-paced AAA action games can generate a killer amount of heat. As well as being uncomfortable to hold, a hot phone is a slow phone: thermal throttling can bring even the fastest CPU to its knees and turn your battle royale into a freeze-frame wipeout. ROG Phone is built from the ground up to run smoothly even when the action gets frenetic: its exclusive GameCool system features highly efficient 3D vapor-chamber cooling inside, enhanced with a copper heat spreader and carbon cooling pads on the circuit board for maximum cooling performance.",
+
+    "featureList": [
+      {
+        "index": 1,
+        "top": "",
+        "data": "-4.7<span class='space-left-m'>°C</span>",
+        "describe": "Lower<br>surface temperature"
+      },
+      {
+        "index": 2,
+        "top": "",
+        "data": "16<span class='space-left-m'>X</span>",
+        "describe": "Vapor-chamber cooling<br>with 16x-larger<sup>4</sup><br>heat-dissipation area"
+      },
+      {
+        "index": 3,
+        "top": "",
+        "data": "60<span class='space-left-m'>%</span>",
+        "describe": "Improved<br>CPU cooling efficiency<sup>5</sup>"
+      },
+      {
+        "index": 4,
+        "top": "",
+        "dataIcon": "5<span class='space-left-m'>X",
+        "describe": "Longer<br>peak endurance"
+      }
+    ]
+  },
+
+  "s5": {
+    "slogan": "PERFORMANCE",
+    "sloganSvg": "svg",
+    "title": "THE ULTrRA-PERFORMER",
+    "info": "ROG never compromises, especially when it comes to performance. ROG Phone takes mobile gaming performance to the next level, with each and every component optimized for a lag-free, responsive experience. Each octa-core Qualcomm<sup>®</sup> Snapdragon™ 845 Mobile Platform CPU is speed-binned and specially selected for maximum performance — including sustained clock speeds of up to an incredible 2.96GHz — and the Adreno™ 630 GPU is a gaming powerhouse, with graphics performance outstripping the previous generation by up to 30%. ROG Phone delivers consistent, smooth and stable frame rates with no lag, even during the toughest marathons. And since performance means nothing if your internet connection is slow, ROG Phone also packs ultrafast wireless connectivity in its inventory, including Cat 18 LTE and the latest 802.11ad gigabit-class <span class='no__wrap'>Wi-Fi.</span>",
+
+    "featureList": [
+      {
+        "index": 1,
+        "top": "",
+        "data": "<span class='space-right-m'>SDM</span>845",
+        "describe": "World’s fastest<sup>2</sup> 10nm octa-core<br>Qualcomm<sup>®</sup> Snapdragon™ 845<br>Mobile Platform"
+      },
+      {
+        "index": 2,
+        "top": "",
+        "data": "2.96<span class='space-left-m'>GHz</span>",
+        "describe": "Speed-binned<br>2.96GHz  SDM845"
+      },
+      {
+        "index": 3,
+        "top": "",
+        "data": "<span class='space-right-m'>Adreno™</span>630",
+        "describe": "GPU"
+      },
+      {
+        "index": 4,
+        "top": "",
+        "data": "30<span class='space-left-m'>%</span>",
+        "describe": "Faster graphics<sup>3</sup>"
+      },
+      {
+        "index": 5,
+        "top": "",
+        "data": "30<span class='space-left-m'>%</span>",
+        "describe": "Higher graphics<br>power efficiency<sup>3</sup>"
+      },
+      {
+        "index": 6,
+        "top": "",
+        "data": "2.5<span class='space-left-m'>X</span>",
+        "describe": "Faster<br>display throughput<sup>3</sup>"
+      }
+    ]
+  },
+
 
   "footer": {
     "h1": "這裡是footer h1",

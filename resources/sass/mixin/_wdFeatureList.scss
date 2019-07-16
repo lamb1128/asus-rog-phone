@@ -1,0 +1,61 @@
+// .wd__feature__list
+//   .wd__feature.feature-1
+//     .wd__feature__data
+//       figure.img.img-icon
+//     .wd__feature__describe
+//       span.describeText
+//         | Innovative GameCool
+//         br
+//         | vapor-chamber
+//         br
+
+.wd__feature__list{
+  margin-top: 79px;
+  width: 1200px;
+
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 20;
+
+  font-family: Saira, sans-serif-Regular, Helvetica, Arial, Microsoft JhengHei, LiHei Pro, WenQuanYi Zen Hei, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  
+  .wd__feature{
+    min-width: 311px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 31px 58px;
+    
+    line-height: 1;
+    color: #cf0a2c;
+    .wd__feature__data{
+      font-size: 59px;
+      .space-left-m{
+        font-size: 29px;
+      }
+      .space-right-m{
+        font-size: 29px;
+      }
+      figure{
+
+      }
+      .img-icon{
+        left: 0%;
+        margin-bottom: 14px;
+        width: 192px;
+        height: 104px;
+      }
+    }
+    
+    .wd__feature__describe{
+      span.describeText{
+        font-size: 20px;
+        line-height: 1.2;
+        color: #cfcfcf;
+        text-transform: none;
+      }
+    }
+  }
+}

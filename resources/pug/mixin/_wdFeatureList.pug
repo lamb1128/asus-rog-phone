@@ -1,0 +1,14 @@
+mixin wdFeatureList(words)
+  .wd__feature__list
+    each item, index in words
+      .wd__feature(class=`feature-${index + 1}`)
+        if item.top
+          .wd__feature__top!= item.top
+        if item.data
+          .wd__feature__data!= item.data
+        if item.dataIcon
+          .wd__feature__data
+            figure(class=`img`)!= item.dataIcon
+        if item.describe
+          .wd__feature__describe
+            span(class=`describeText`)!= item.describe
