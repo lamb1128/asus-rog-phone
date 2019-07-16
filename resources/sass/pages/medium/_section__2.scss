@@ -1,0 +1,66 @@
+.section__2 {
+  padding-top: 170px;
+  padding-bottom: 0;
+
+  .wd-content {
+    .content-info {
+      width: 90%;
+      max-width: 960px;
+    }
+  }
+
+  .img__2 {
+    margin-top: -110px;
+    width: 100%;
+    width: 1300px;
+    height: 586px;
+    left: 50%;
+    margin-left: -650px;
+    z-index: 1;
+    @include resolution2xImg((
+      img1xPath: '../images/features/medium/1x/02_design.jpg',
+      img2xPath: '../images/features/medium/2x/02_design.jpg'
+    )...);
+    // background-image: url('../images/features/large/2x/02_design.jpg');
+  }
+
+  .img__2::after {
+    content: "";
+    margin-top: 570px;
+    width: 770px;
+    max-width: 770px;
+    height: 322px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    // top: 1192px;
+    z-index: 1;
+    @include resolution2xImg((
+      img1xPath: '../images/features/medium/1x/02_parts.jpg',
+      img2xPath: '../images/features/medium/2x/02_parts.jpg'
+    )...);
+    // background-image: url('../images/features/large/2x/02_parts.jpg');
+    display: block;
+    background-size: cover;
+    position: absolute;
+  }
+ 
+    .wd__feature__list{
+      .wd__feature{
+        min-width: 171px;
+        .wd__feature__data{
+          .space-left-m{
+          }
+          figure{
+          }
+          .img-icon{
+            width: 104px;
+            height: 36px;
+          }
+        }
+      }
+  }
+
+}

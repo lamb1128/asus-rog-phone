@@ -1,0 +1,33 @@
+section {
+  .wd-content {
+    width: 89.2%;
+    left: 5.4%;
+
+    .content-slogan {
+      text-align: left;
+
+      &.content-slogan__kv {
+        font-size: 36px !important;
+      }
+      width: 100%;
+    }
+
+    .content-title {
+      width: 100%;
+      font-size: 28px !important;
+      text-align: left;
+
+    }
+
+    .content-info {
+      width: 100%;
+      text-align: left;
+      font-size: 18px !important;
+    }
+
+    .wd__feature__list {
+      width: 100%;
+    }
+    
+  }
+}

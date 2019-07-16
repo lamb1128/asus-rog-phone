@@ -4,13 +4,17 @@
   .img__4 {
     position: relative;
     margin-top: 0px;
-    width: 2560px;
-    height: 1284px;
+    width: 566px;
+    height: 324px;
     left: 50%;
-    margin-left: -1280px;
+    margin-left: -283px;
     z-index: 1;
-    background-image: url('../images/features/large/2x/04_cooling.jpg');
     background-size: contain;
+
+    @include resolution2xImg((
+      img1xPath: '../images/features/small/1x/04_cooling.jpg',
+      img2xPath: '../images/features/small/2x/04_cooling.jpg'
+    )...);
 
     span {
       position: absolute;
@@ -39,17 +43,23 @@
 
   .img__04_fan {
     margin-top: -110px;
-    width: 100%;
-    max-width: 2560px;
-    height: 1120px;
-    left: 0;
+    width: 566px;
+    height: 324px;
+    left: 50%;
+    margin-left: 283px;
     z-index: 1;
-    background-image: url('../images/features/large/2x/04_fan.jpg');
+
+    @include resolution2xImg((
+      img1xPath: '../images/features/small/1x/04_fan.jpg',
+      img2xPath: '../images/features/small/2x/04_fan.jpg'
+    )...);
+    // background-image: url('../images/features/large/2x/04_fan.jpg');
     background-size: contain;
   }
 
     .wd__feature__list{
-      width: 1090px;
+      width: 100%;
+      text-align: center;
       .wd__feature{
         min-width: 171px;
         .wd__feature__data{

@@ -1,0 +1,24 @@
+section {
+  .wd-content {
+    .content-slogan {
+      &.content-slogan__kv {
+        font-size: 52px;
+      }
+      width: 100%;
+    }
+
+    .content-title {
+      width: 100%;
+      font-size: 42px;
+    }
+
+    .content-info {
+      width: 100%;
+    }
+
+    .wd__feature__list {
+      width: 100%;
+    }
+    
+  }
+}

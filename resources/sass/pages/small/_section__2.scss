@@ -1,21 +1,26 @@
 .section__2 {
-  padding-top: 250px;
-  padding-bottom: 640px;
+  padding-top: 60px;
+  padding-bottom: 0;
 
   .wd-content {
     .content-info {
-      width: 1000px;
+      width: 100%;
     }
   }
 
   .img__2 {
-    margin-top: -260px;
-    width: 100%;
-    max-width: 2560px;
-    height: 1284px;
-    left: 0;
+    margin-top: -130px;
+    width: 720px;
+    max-width: 720px;
+    height: 446px;
+    left: 50%;
+    margin-left: -360px;
     z-index: 1;
-    background-image: url('../images/features/large/2x/02_design.jpg');
+    @include resolution2xImg((
+      img1xPath: '../images/features/small/1x/02_design.jpg',
+      img2xPath: '../images/features/small/2x/02_design.jpg'
+    )...);
+    // background-image: url('../images/features/large/2x/02_design.jpg');
   }
 
   .img__2::after {

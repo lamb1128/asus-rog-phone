@@ -30,12 +30,7 @@ section {
 
   .row {
     .col {
-      .img__kv__logo{
-        background-image: url('../images/features/large/1x/01_kv_logo.png');
-        width: 740px;
-        height: 120px;
-        background-size: contain;
-      }
+
 
       .wd-content {
         position: relative;
@@ -43,27 +38,10 @@ section {
         
         > * {
           color: #fff;
-          font-family: Saira, sans-serif-Regular, Helvetica, Arial, Microsoft JhengHei, LiHei Pro, WenQuanYi Zen Hei, sans-serif;
           font-weight: normal;
           font-style: normal;
-          &.content-slogan__kv {
-            margin: -20px 0 0 0;
-            font-size: 69px;
-            // font-family: Saira, sans-serif-Regular, Helvetica, Arial, Microsoft JhengHei, LiHei Pro, WenQuanYi Zen Hei, sans-serif;
-            color: #fff;
-          }
 
-          &.content-title__kv {
-            font-size: 48px;
-            color: #cf092c;
-            line-height: 1.2;
-
-            margin-bottom: 10px;
-
-            text-transform: uppercase;
-            font-weight: normal;
-            font-style: normal;
-          }
+          
 
           &.content-slogan {
             position: relative;
@@ -74,6 +52,7 @@ section {
             font-size: 26px;
             margin-bottom: 10px;
             text-transform: uppercase;
+            font-family: 'Archivo Black', sans-serif;
           }
 
           &.content-title {
@@ -83,8 +62,7 @@ section {
             font-size: 48px;
             color: #fff;
             line-height: 1.2;
-
-
+            font-family: 'Archivo Black', sans-serif
           }
 
           &.content-info {
@@ -94,7 +72,7 @@ section {
             margin-left: auto;
             margin-right: auto;
 
-            font-family: "Roboto-Light_0", Helvetica, Arial, Microsoft JhengHei, LiHei Pro, WenQuanYi Zen Hei, sans-serif;
+            font-family: Helvetica, Arial, Microsoft JhengHei, LiHei Pro, WenQuanYi Zen Hei, sans-serif;
             font-size: 25px;
             line-height: 1.6;
           }

@@ -1,8 +1,51 @@
 .section__kv {
+
+  .wd-content {
+    .content-slogan__kv {
+      margin: 0 auto 15px;
+      font-size: 69px;
+      // font-family: Saira, sans-serif-Regular, Helvetica, Arial, Microsoft JhengHei, LiHei Pro, WenQuanYi Zen Hei, sans-serif;
+      color: #fff;
+    }
+  
+    .content-title__kv {
+      font-size: 48px;
+      color: #cf092c;
+      line-height: 1.2;
+  
+      margin-bottom: 10px;
+  
+      text-transform: uppercase;
+      font-weight: normal;
+      font-style: normal;
+    }
+    .content-info{
+      width: 1210px;
+    }
+
+  }
+
   .img__kv {
+    margin-top: -230px;
     width: 2560px;
     height: 1720px;
     margin-left: -1280px;
-    background-image: url('../images/features/large/2x/01_kv.jpg');
+    @include resolution2xImg((
+      img1xPath: '../images/features/large/1x/01_kv.jpg',
+      img2xPath: '../images/features/large/2x/01_kv.jpg'
+    )...);
+    // background-image: url('../images/features/large/2x/01_kv.jpg');
+  }
+
+  .img__kv__logo{
+    @include resolution2xImg((
+      img1xPath: '../images/features/large/1x/01_kv_logo.png',
+      img2xPath: '../images/features/large/2x/01_kv_logo.png'
+    )...);
+    // background-image: url('../images/features/large/1x/01_kv_logo.png');
+    width: 740px;
+    height: 120px;
+    background-size: contain;
+    margin-top: -420px;
   }
 }

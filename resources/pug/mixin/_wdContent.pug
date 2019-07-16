@@ -31,8 +31,8 @@ mixin wdContent(words, config, addLogo)
     //- .text-center
     if config && config === 'center' && addLogo ==='kv'
       .wd-content.text-center
-        .content-slogan__kv!= words.slogan
-        .content-title__kv
+        .content-slogan.content-slogan__kv!= words.slogan
+        .content-title.content-title__kv
           .no__wrap!= words.title[0]
           .no__wrap!= words.title[1]
           .no__wrap!= words.title[2]

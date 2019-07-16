@@ -1,0 +1,34 @@
+.section__kv {
+  .wd-content {
+
+    .content-info{
+      width: 86%;
+      max-width: 990px;
+    }
+
+  }
+
+  .img__kv {
+    margin-top: -230px;
+    width: 1300px;
+    height: 918px;
+    margin-left: -650px;
+    @include resolution2xImg((
+      img1xPath: '../images/features/medium/1x/01_kv.jpg',
+      img2xPath: '../images/features/medium/2x/01_kv.jpg'
+    )...);
+    // background-image: url('../images/features/medium/2x/01_kv.jpg');
+  }
+
+  .img__kv__logo{
+    @include resolution2xImg((
+      img1xPath: '../images/features/medium/1x/01_kv_logo.png',
+      img2xPath: '../images/features/medium/2x/01_kv_logo.png'
+    )...);
+    // background-image: url('../images/features/medium/1x/01_kv_logo.png');
+    width: 740px;
+    height: 120px;
+    background-size: contain;
+    margin-top: -220px;
+  }
+}
