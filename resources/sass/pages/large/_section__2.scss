@@ -1,5 +1,5 @@
 .section__2 {
-  padding-top: 250px;
+  padding-top: 143px;
   padding-bottom: 640px;
 
   .wd-content {
@@ -12,10 +12,15 @@
     margin-top: -260px;
     width: 100%;
     max-width: 2560px;
-    height: 1284px;
+    height: 1164px;
     left: 0;
     z-index: 1;
-    background-image: url('../images/features/large/2x/02_design.jpg');
+    @include resolution2xImg((
+      img1xPath: '../images/features/large/1x/02_design.jpg',
+      img2xPath: '../images/features/large/2x/02_design.jpg'
+    )...);
+    
+    // background-image: url('../images/features/large/2x/02_design.jpg');
   }
 
   .img__2::after {
@@ -30,7 +35,11 @@
     margin-right: auto;
     top: 1192px;
     z-index: 1;
-    background-image: url('../images/features/large/2x/02_parts.jpg');
+    @include resolution2xImg((
+      img1xPath: '../images/features/large/1x/02_parts.jpg',
+      img2xPath: '../images/features/large/2x/02_parts.jpg'
+    )...);
+    // background-image: url('../images/features/large/2x/02_parts.jpg');
     display: block;
     background-size: cover;
     position: absolute;

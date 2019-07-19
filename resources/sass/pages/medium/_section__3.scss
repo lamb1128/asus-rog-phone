@@ -1,0 +1,53 @@
+.section__3 {
+  padding-top: 364px;
+
+  .img__3 {
+    margin-top: -227px;
+    width: 1300px;
+    height: 766px;
+    left: 50%;
+    margin-left: -650px;
+    z-index: 1;
+    @include resolution2xImg((
+      img1xPath: '../images/features/medium/1x/03_performance.jpg',
+      img2xPath: '../images/features/medium/2x/03_performance.jpg'
+    )...);
+    // background-image: url('../images/features/large/2x/03_performance.jpg');
+  }
+
+  .wd-content {
+    .content-info {
+      width: 86%;
+      max-width: 960px;
+    }
+
+    .wd__feature__list{
+      width: 95%;
+
+      .wd__feature{
+        min-width: 171px;
+        .wd__feature__data{
+          figure{
+          }
+          .img-icon{
+            width: 104px;
+            height: 36px;
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .wd__feature.feature-11 .wd__feature__data figure.img img.img-icon{
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 352px;
+    height: 74px;
+  }
+
+}
+

@@ -6,10 +6,10 @@ mixin wdContent(words, config, addLogo)
     if config && config === 'left'
       .wd-content.text-left
         .content-slogan!= words.slogan
-          svg(viewBox='0 0 1060 64')
-            path.stroke-left.stroke(d='M0 25.5 697.5 25.5 720.5 45')
-            path.stroke-right.stroke(d='M1060.5 44.5 370.5 44.5 348.5 25')
-            path.stroke-left.stroke(d='M0 25.5 697.5 25.5 690.5 25.4')
+          //- svg(viewBox='0 0 1060 64')
+          //-   path.stroke-left.stroke(d='M0 25.5 697.5 25.5 720.5 45')
+          //-   path.stroke-right.stroke(d='M1060.5 44.5 370.5 44.5 348.5 25')
+          //-   path.stroke-left.stroke(d='M0 25.5 697.5 25.5 690.5 25.4')
         .content-title!= words.title
         .content-info!= words.info
         block
@@ -19,11 +19,10 @@ mixin wdContent(words, config, addLogo)
       .wd-content.text-right
         .content-slogan!= words.slogan
           .svg__slogan.active
-            svg(viewBox='0 0 1060 64')
-              path.stroke-left.stroke(d='M0 25.5 697.5 25.5 720.5 45')
-              path.stroke-right.stroke(d='M1060.5 44.5 370.5 44.5 348.5 25')
-              path.stroke-left.stroke(d='M0 25.5 697.5 25.5 690.5 25.4')
-
+            //- svg(viewBox='0 0 1060 64')
+            //-   path.stroke-left.stroke(d='M0 25.5 697.5 25.5 720.5 45')
+            //-   path.stroke-right.stroke(d='M1060.5 44.5 370.5 44.5 348.5 25')
+            //-   path.stroke-left.stroke(d='M0 25.5 697.5 25.5 690.5 25.4')
         .content-title!= words.title
         .content-info!= words.info
         block
@@ -43,10 +42,10 @@ mixin wdContent(words, config, addLogo)
       .wd-content.text-center
         .content-slogan!= words.slogan
           .svg__slogan.active
-            svg(viewBox='0 0 1060 64')
-              path.stroke-left.stroke(d='M0 25.5 697.5 25.5 720.5 45')
-              path.stroke-right.stroke(d='M1060.5 44.5 370.5 44.5 348.5 25')
-              path.stroke-left.stroke(d='M0 25.5 697.5 25.5 690.5 25.4')
+            //- svg(viewBox='0 0 1060 64')
+            //-   path.stroke-left.stroke(d='M0 25.5 697.5 25.5 720.5 45')
+            //-   path.stroke-right.stroke(d='M1060.5 44.5 370.5 44.5 348.5 25')
+            //-   path.stroke-left.stroke(d='M0 25.5 697.5 25.5 690.5 25.4')
         .content-title!= words.title
         .content-info!= words.info
         block
